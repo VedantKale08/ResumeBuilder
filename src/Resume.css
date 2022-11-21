@@ -1,0 +1,149 @@
+.outerResume{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding-top: 4rem;
+   padding-bottom: 2rem;
+}
+.Resume{
+   width:700px;
+   min-width: 250px;
+   /* padding: 2rem; */
+   box-shadow: 0px 2px 5px 2px grey;
+   display: flex;
+}
+.img{
+   width:40%;
+   height:40%;
+   border-radius:3rem
+}
+.left{
+   flex: 1;
+   /* background-color:#6E85B2; */
+   /* text-align: center; */
+}
+.name{
+   background-color:#BCCEF8;
+   height: 17rem;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   font-size: 2rem;
+   font-weight: 700;
+}
+.personal{
+   background-color: #292529;
+   color: white;
+   padding: 1rem;
+}
+.hobbies{
+   background-color: #292529;
+   color: white;
+   padding: 1rem;
+}
+.right{
+   flex: 2;
+   padding: 1rem;
+   
+}
+h3{
+   margin-block-start: 0;
+   margin-block-end: 0;
+}
+p{
+   margin-block-start: 0;
+   margin-block-end: 0;
+}
+.right-wrapper{
+}
+
+.icons{
+   /* margin-top: 20px; */
+}
+.per{
+   padding-left: 1.3rem;
+   font-size:0.9rem ;
+   color:grey;
+}
+.per2{
+   padding-left: 1.3rem;
+   font-size:0.9rem ;
+   color:#404258;
+}
+.per1{
+   font-size:0.9rem ;
+   color:grey;
+}
+.per3{
+   font-size:0.9rem ;
+   color:#404258;
+}
+
+button{
+   width: 12rem;
+   height: 2rem;
+   background-color: #BCCEF8;
+   cursor: pointer;
+}
+.buttonSection{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 4rem;
+}
+.end{
+   text-align: end;
+}
+
+
+@media screen  and (max-width:900px){
+   .outerResume{
+      
+   } 
+   .img{
+      width: 50%;
+      height: 30%;
+   }
+   h3{
+      font-size: 10px;
+   }
+   .per{
+      padding-left: 0;
+      font-size:10px ;
+      color:grey;
+      overflow-wrap: break-word;
+   }
+   .per2{
+      padding-left: 0;
+      font-size:10px ;
+      color:#404258;
+      overflow-wrap: break-word;
+   }
+   .per1{
+      font-size:10px ;
+      color:grey;
+      overflow-wrap: break-word;
+   }
+   .per3{
+      font-size:10px ;
+      color:#404258;
+      overflow-wrap: break-word;
+   }
+   .name{
+      font-size: 30px;
+   }
+   .left{
+      width: 150px;
+   }
+   .right{
+      width: 150px;
+      overflow-wrap: break-word;
+   }
+   .end{
+      flex: 1;
+   }
+   .ppp{
+      font-size: 10px;
+   }
+}
