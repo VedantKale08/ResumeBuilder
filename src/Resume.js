@@ -44,7 +44,7 @@ function Resume() {
                      <br></br>
 
                      <p><b><AiFillHome /> Address</b></p>
-                     <p className='per'>{location.state.data.address}</p>
+                     <p className='per'>{location.state.data.address}, {location.state.data.state}, {location.state.data.city}, {location.state.data.zip}</p>
                      <br></br>
 
                      <p className="ppp"><b><AiFillLinkedin /> LinkedIn</b></p>
